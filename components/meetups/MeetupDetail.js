@@ -5,6 +5,7 @@ const MeetupDetail = (props) => {
   return (
     <section className={classes.content}>
       <Image src={props.image} alt={props.title} width='500px' height='500px' />
+      {console.log(props.image)}
       <h1>{props.title}</h1>
       <p>{props.description}</p>
       <h3>{props.address}</h3>

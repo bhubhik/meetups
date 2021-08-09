@@ -13,7 +13,7 @@ function Homepage(props) {
   return (
     <div>
       <Head>
-        <title>React Meetups</title>
+        <title>Let{`'`}s meet!</title>
         <meta
           name='description'
           content='A page to see meetups and create new meetups'
